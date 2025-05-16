@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparativa Completa: Empleado vs Freelance</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="comparison-container">
+        <!-- Empleado -->
+        <div class="card">
+            <div class="badge">Estable</div>
+            <div class="card-header">
+                <i class="icon fas fa-briefcase"></i>
+                <h2 class="card-title">Empleado</h2>
+            </div>
+            <ul class="pros-cons-list">
+                <li class="pro">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Estabilidad financiera predecible</span>
+                </li>
+                <li class="pro">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Beneficios adicionales (seguro, vacaciones)</span>
+                </li>
+                <li class="pro">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Desarrollo profesional estructurado</span>
+                </li>
+                <li class="pro">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Trabajo en equipo colaborativo</span>
+                </li>
+                <li class="con">
+                    <i class="fas fa-times-circle"></i>
+                    <span>Horarios poco flexibles</span>
+                </li>
+                <li class="con">
+                    <i class="fas fa-times-circle"></i>
+                    <span>Límite salarial definido</span>
+                </li>
+                <li class="con">
+                    <i class="fas fa-times-circle"></i>
+                    <span>Menor autonomía en decisiones</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Freelance -->
+        <div class="card freelance">
+            <div class="badge">Trending</div>
+            <div class="card-header">
+                <i class="icon fas fa-laptop-code"></i>
+                <h2 class="card-title">Freelance</h2>
+            </div>
+            <ul class="pros-cons-list">
+                <li class="pro">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Libertad geográfica y horaria</span>
+                </li>
+                <li class="pro">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Ingresos escalables</span>
+                </li>
+                <li class="pro">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Selección de proyectos</span>
+                </li>
+                <li class="pro">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Crecimiento profesional acelerado</span>
+                </li>
+                <li class="pro">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Responsabilidad total</span>
+                </li>
+                <li class="con">
+                    <i class="fas fa-times-circle"></i>
+                    <span>Gestión administrativa personal</span>
+                </li>
+                <li class="con">
+                    <i class="fas fa-times-circle"></i>
+                    <span>Inestabilidad inicial</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <canvas id="comparisonChart"></canvas>
+    </div>
+
+    <div class="stats-container">
+        <div class="stat-item">
+            <h3>📈 Crecimiento Mercado Freelance</h3>
+            <p>+78% desde 2020 (Fuente: Upwork)</p>
+        </div>
+        <div class="stat-item">
+            <h3>💼 Empleados que Consideran Cambio</h3>
+            <p>58% (Encuesta Global 2023)</p>
+        </div>
+        <div class="stat-item">
+            <h3>🌍 Trabajadores Remotos</h3>
+            <p>32% empresas contratan freelance internacionales</p>
+        </div>
+    </div>
+
+    <div class="faq-container">
+        <h2>Preguntas Frecuentes</h2>
+        <div class="faq-item">
+            <div class="faq-question">¿Cómo manejar la inestabilidad financiera inicial como freelance?</div>
+            <div class="faq-answer">
+                <p>• Crear un fondo de emergencia (3-6 meses de gastos)<br>
+                • Diversificar clientes y flujos de ingreso<br>
+                • Ofrecer servicios recurrentes (mantenimiento, asesorías)</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">¿Qué beneficios pierdo al dejar un empleo tradicional?</div>
+            <div class="faq-answer">
+                <p>• Seguro médico privado<br>
+                • Planes de pensión empresarial<br>
+                • Bonos anuales garantizados<br>
+                • Capacitaciones pagadas</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">¿Cómo fijar tarifas competitivas?</div>
+            <div class="faq-answer">
+                <p>1. Investigar tarifas del mercado<br>
+                2. Calcular costos + ganancia<br>
+                3. Empezar por proyectos pequeños<br>
+                4. Aumentar gradualmente según experiencia</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">¿Es posible combinar empleo y freelance?</div>
+            <div class="faq-answer">
+                <p>Sí, muchos profesionales inician:<br>
+                - Trabajando freelance por las noches/fines de semana<br>
+                - Negociando horarios flexibles<br>
+                - Usando vacaciones para proyectos clave</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
